@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm to Table Transparency</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <div class="logo">Your Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#farms">Our Farms</a></li>
+                <li><a href="#products">Our Products</a></li>
+                <li><a href="#traceability">Traceability</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            
+            <h2>Farm to Table Transparency</h2>
+            <p>Know Your Food's Journey</p>
+             <button>Learn More</button> 
+        </div>
+       
+    </section>
+    
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p><ul>
+            <li>As our nation’s urban areas grow, consumers in the grocery store are increasingly separated from the producers who grow the meat, fruit and vegetables they buy there.</li>
+         <li> While consumers are sometimes able to
+            purchase food directly from the farmers that
+            produce it, the majority of food sold in the
+            India comes from grocery stores.</li>
+         <li> “Farm-to-table” is a growing social movement that promotes serving locally grown food to consumers. But it’s not just about proximity. The movement is also driven by an emphasis on food safety, freshness , Transparency and  the ability to track where your food came from.</li> </ul></p>
+        <img src="https://nebraskacorn.gov/wp-content/uploads/2022/07/Screen-Shot-2022-07-21-at-2.24.52-PM.png" alt="About Us">
+    </section>
+
+    <section id="farms">
+        <h2>Our Farms</h2>
+        <div class="farm-grid">
+            <section class="con we_offer">
+                <div class="we offer">
+                  <img src="https://cdn.agronomag.com/wp-content/uploads/2022/04/Intensive-Farming-1536x863.jpg">
+                  <h2>Intensive Farming</h2>
+                  <p>Focusing on maximizing productivity using modern agricultural methods.</p>
+                </div>
+                <div class=" we_offer">
+                  <img src="https://i.pinimg.com/originals/33/7e/ca/337eca31237bd9ed714ff0f25fa16244.jpg" >
+                  <h2>Mixed Farming</h2>
+                  <p>Combining crops and livestock to optimize resource use and productivity.</p>
+                </div>
+                <div class="we_offer">
+                  <img src="https://th.bing.com/th/id/OIP.I1I05WoouHGUJ25XREFMkAHaE6?w=281&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+                  <h2>Organic Farming</h2>
+                  <p>uses biological fertilisers and pest control acquired from animal or plant waste</p>
+                </div>
+              </section>
+          
+            <!-- Farm Profiles Here -->
+        </div>
+        <button>View All Farms</button>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/3103592/1360/911/m1/fpnw/wm1/ndupfueduqkmdceufykyyd2ldmztjie7gsbbblfbdefs7ylq0r8cznu2yhg0cb7y-.jpg?1502383413&s=0d0551e3b23310f887ad3dad4d8f277e" alt="Product 1">
+                <h3>Dragon Fruit</h3>
+                <p>Dragon fruit is a tropical fruit that’s low in calories and high in fiber and antioxidants.</p>
+                <p>Price: $10.00</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.zLGOUdDMy8fONO3aR80nmgHaFl?rs=1&pid=ImgDetMain" alt="Product 2">
+                <h3>Capsicum</h3>
+                <p>Capsicum is a genus of flowering plants  cultivated worldwide for their edible fruit.</p>
+                <p>Price: $20.00</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.s2vpIzxpYw1Nzel7eJE7xQHaHa?rs=1&pid=ImgDetMain" alt="Product 3" higth="-10%">
+                <h3>Mixed Dryfruit</h3>
+                <p>Mixed Dry Fruits best combination of dried cherry, dates, almond, casheuunut.</p>
+                <p>Price: $30.00</p>
+                <button>Buy Now</button>
+            </div>
+            <!-- Add more product profiles as needed -->
+        </div>
+        <br>
+        <button>Shop Now</button>
+    </section>
+
+    <section id="traceability">
+        <h2>Trace Your Food</h2>
+        <div class="traceability-form">
+            <input type="text" id="product-code" placeholder="Enter product code...">
+            <button onclick="traceFood()">Trace</button>
+        </div>
+        <div id="trace-result" class="trace-result">
+            <!-- Traceability information will be displayed here -->
+        </div>
+        <div class="map">
+            <!-- Placeholder for interactive map -->
+            <img src="https://via.placeholder.com/600x400" alt="Map showing traceability">
+        </div>
+        <div class="example-trace">
+            <h3>Example Trace</h3>
+            <p>Product Code: 12345</p>
+            <p>Farm: Sunny Fields</p>
+            <p>Harvest Date: June 12, 2024</p>
+            <p>Processing Plant: Fresh Farms Co.</p>
+            <p>Store: Local Market</p>
+        </div>
+    </section>
+
+   <!-- <section id="testimonials">
+         <h2>What Our Customers Say</h2>
+        div class="testimonial-carousel">
+          Testimonials Here 
+        </div>
+    </section> -->
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <br>
+            <button>Send Message</button>
+            <br>
+        </form>
+        <div class="contact-info">
+            <p>Address: Your Address</p>
+            <p>Phone: Your Phone Number</p>
+            <p>Email: Your Email</p>
+        </div>
+        <div class="social-media">
+            <!-- Social Media Icons Here -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="quick-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#farms">Our Farms</a>
+            <a href="#products">Our Products</a>
+            <a href="#traceability">Traceability</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+        <div class="newsletter">
+            <input type="email" placeholder="Subscribe to our newsletter">
+            <button>Subscribe</button>
+        </div>
+        <div class="social-media">
+            <!-- Social Media Icons Here -->
+        </div>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
